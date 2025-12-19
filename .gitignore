@@ -1,0 +1,34 @@
+Build Directories
+
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+
+IDE Files
+
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+CMake Generated
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cbp
+
+Compiled Binaries & Outputs
+
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+*.enc

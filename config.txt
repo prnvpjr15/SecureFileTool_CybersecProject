@@ -1,0 +1,1 @@
+HMAC_KEY=secure_portfolio_key_2025
