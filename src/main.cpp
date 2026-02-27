@@ -37,7 +37,7 @@ private:
 // --- Main GUI Window ---
 class MyFrame : public wxFrame {
 public:
-    MyFrame() : wxFrame(NULL, wxID_ANY, "SecureFile Tool v1.0", wxDefaultPosition, wxSize(700, 950)) { 
+    MyFrame() : wxFrame(NULL, wxID_ANY, "SecureFileTool v1.0", wxDefaultPosition, wxSize(700, 950)) { 
         wxPanel* mainPanel = new wxPanel(this, wxID_ANY);
         mainPanel->SetBackgroundColour(wxColour(250, 250, 252)); // Off-white
         mainPanel->SetDropTarget(new FileDropTarget(this));
